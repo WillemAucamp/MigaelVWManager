@@ -149,7 +149,6 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(220,38,38,0.1)"/><stop offset="100%" stop-color="transparent"/></radialGradient></defs><circle cx="200" cy="300" r="100" fill="url(%23g)"/><circle cx="800" cy="700" r="150" fill="url(%23g)"/></svg>');
   opacity: 0.6;
     animation: slideInUp 1s ease-out 0.3s both;
 }
@@ -222,9 +221,9 @@ body {
 }
 
 .hero-circle {
-  width: 400px;
-  height: 400px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  width: 500px;
+  height: 500px;
+  
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -461,12 +460,12 @@ body {
 .profile-image {
   width: 200px;
   height: 200px;
-  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 15px 40px var(--primary);
+  
   flex-shrink: 0;
   position: relative;
 }
@@ -535,13 +534,6 @@ body {
   left: -50%;
   width: 200%;
   height: 200%;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    rgba(220, 38, 38, 0.05),
-    transparent
-  );
-  transition: transform 0.6s;
   transform: translateX(-100%);
 }
 
