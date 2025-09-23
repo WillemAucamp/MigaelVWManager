@@ -465,7 +465,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
   flex-shrink: 0;
   position: relative;
 }
@@ -602,51 +601,6 @@ body {
   }
 }
 
-
-
-
-/* Testimonials Section */
-.object-fit-cover {
-  object-fit: cover;
-  height: 300px; /* keeps images uniform height */
-  border-top-left-radius: 1.2rem !important;
-  border-top-right-radius: 1.2rem !important;
-}
-
-.customer-name {
-  font-weight: 700; /* bold */
-  margin-top: 0.5rem;
-  color: var(--dark, #222);
-}
-
-.testimonial-card {
-  border-radius: 1.2rem !important;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
-  background: #fefefe;
-}
-
-/* Grid setup: Bootstrap already handles col-md-4, but we can refine */
-@media (max-width: 992px) {
-  
-  .object-fit-cover {
-    height: 250px; /* slightly smaller on tablets */
-  }
-}
-
-@media (max-width: 576px) {
-  
-  .object-fit-cover {
-    height: 300px; /* smaller on phones */
-
-  }
-  .customer-name {
-    font-size: 0.95rem;
-  }
-  .card-text {
-    font-size: 0.9rem;
-  }
-}
 
 
 /* Contact Section */
